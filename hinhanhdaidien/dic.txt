@@ -1,0 +1,52 @@
+measuring:đo lường, tiêu chuẩn
+electronics:Điện tử dân dụng
+facility:nhà vệ sinh
+hello:xin chào
+good:tốt
+attend:tham gia
+cause:gây ra
+close:chốt, hỗ trợ
+conclude:bao gồm
+deserve:xứng đáng được
+dismiss:bác bỏ
+draw:thu hút,đưa ra 
+express:bày tỏ 
+gain:nhận được
+grow:mất
+hold:tổ chức
+honor:làm theo
+issue:đưa ra 
+join:gia nhập
+launch:mở
+lead:dẫn dắt
+limit:giới hạn
+meet:đáp ứng
+negotiate:đàm phán
+evercome:vượt qua
+postpone:hoãn
+propose:kiếm nghị
+pursue:theo đuổi
+reach:đạt đến
+register:bày tỏ
+secure:bảo đảm
+settle:giải quyết
+sufer:chịu đựng
+support:ủng hộ
+tackle:giải quyết
+undermine:phá hoại
+voice:lên tiếng bày tỏ
+withstand:chống cự
+customer:khách
+caterer:phục vụ
+choose:chọn lựa
+remodel:xây sửa
+drink:đồ uống
+chef:đầu bếp
+transport:vận chuyển
+appeeling:thú hút
+restaurant:khu vực ăn uống
+producer:nhà sản xuất
+provider:nhà cung cấp
+minimize:giảm
+select:chọn lựa
+conference:họp, hội thảo

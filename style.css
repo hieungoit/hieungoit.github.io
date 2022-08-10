@@ -1,0 +1,393 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.group-search{
+    display: flex;
+}
+.group-search>input{
+    width:300px
+}
+.group-search>button
+{
+    margin-left:10px
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+.register-button{
+    background-color: rgb(245, 84, 84);
+}
+.login-button{
+    background-color: green;
+}
+html{
+	height: 100%;
+}
+
+.header-admin{
+	background: #0B87C9;
+}
+.header-admin .nav-link{
+	color: #fff;
+}
+.sidebar{
+	height: 100%;
+	background: #f2f2f2;
+}
+.sidebar .list-group .list-group-item{
+	background: #f2f2f2;
+	padding: 0;
+}
+.sidebar .list-group .list-group-item a{
+	display: block;
+	color: #464646;
+	font-size: 14px;
+	padding: 10px 20px;
+}
+
+.sidebar .list-group .list-group-item a:hover{
+	color: #0B87C9;
+	border-right:2px solid #0B87C9;
+	text-decoration: none;
+}
+.sidebar .list-group .list-group-item a .fa{
+	padding-right: 10px;
+}
+
+.navbar-nav>li>a{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.container-fluid{
+    
+    padding-left: 0px !important;
+}
+.sidebar-fixed{
+    width: 15%;
+    position: fixed;
+    margin-top: 65px;
+}
+.padding-content{
+    padding: 20px;
+    margin-top: 70px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+.space{
+    border: 0.1px outset;
+    max-width: 70%;
+    margin: auto;
+}
+.box-btn{
+    display: flex;
+}
+.group-btn{
+    margin:auto
+}
+.fix-flex{
+    display: flex;
+    flex-direction: row !important;
+}
+.back{
+    margin-right: 20px;
+}
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+/* Clear floats */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Style images */
+.container img {
+    float: left;
+    max-width: 45px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+    max-height: 45px;
+}
+/* Style the right image */
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+}
+/* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+}
+.chat {
+    margin: 0px 250px;
+}
+.chatbox {
+    margin-top: 20px;
+    min-width: 800px;
+    border: 1px solid;
+    padding: 20px;
+}
+.send-mess {
+    padding-top: 20px;
+}
+textarea {
+    width: 100%;
+    padding: 10px 20px;
+    font: 14px/22px "Lato", Arial, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid;
+}
+.fa-file-o,
+.fa-file-image-o {
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+}
+button {
+    float: right;
+    color: blue;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #F2F5F8;
+}
+.tieude{
+    min-height: 150px;
+background: #9ca8a8;
+padding: 20px;
+border: 1px solid;
+}
+h3,h5{
+    color: #e7f3ef;
+}
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.chatbox > .container{
+    max-width: 100% !important;
+    width: 100% !important;
+}
+.chatbox1{
+    min-width: unset;
+}
+.full>.row{
+     margin-right: unset !important;
+}
+.upload > form{
+    margin: auto;
+    padding: 100px;
+    background: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+}
+.upload{
+    display: flex;
+}
+.thatbai{
+    text-align: center;
+    /* background: antiquewhite; */
+    min-width: 200px;
+    min-height: 200px;
+    position: fixed;
+    /* margin-right: 0px; */
+    right: 0px;
+    background: #b8420f;
+    min-width: 200px;
+    min-height: 40px;
+    margin: 100px;
+    /* color: green; */
+    border-radius: 10px;
+}
+.thanhcong{
+    text-align: center;
+    /* background: antiquewhite; */
+    min-width: 200px;
+    min-height: 200px;
+    position: fixed;
+    /* margin-right: 0px; */
+    right: 0px;
+    background: green;
+    min-width: 200px;
+    min-height: 40px;
+    margin: 100px;
+    /* color: green; */
+    border-radius: 10px;
+}
+#exampleModalLongTitle{
+    color : rgb(43, 41, 41)
+}
+.card-title{
+    color: brown;
+}
+.active{
+    background: cadetblue;
+}
+.box-group{
+    display: flex;
+}
+.box-group>.container{
+    max-width: unset !important;
+    flex: 1;
+}
+.box-group>div{
+    max-width: 30px;
+    display: flex;
+}
+.box-group>div>i{
+    margin: auto;
+    font-size: 30px;
+    color: red;
+}
+.header{
+    position: fixed;
+    min-height: 30px;
+    min-width: 100%;
+    z-index: 10;
+}
+.card-img-top{
+    height: 200px;
+}
+
+.box-chat > .container{
+    flex: 1;
+    margin-right: 10px;
+}
+.box-chat >.box-mess>.trash1{
+    margin: auto;
+    color: red;
+    font-size: 30px;
+    
+}
+.box-mess >.trash1>i{
+    margin: auto;
+}
+.box-mess{
+    max-width: 100% !important;display: flex;
+}
+.box-chat>.box-mess>.newbox{
+flex: 1;
+display: flex;
+}
+.box-chat>.box-mess>.newbox>.info
+{
+    display: flex;
+    flex-direction: column;
+}
+.box-chat>.box-mess>.newbox>.info>.name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.box-chat>.box-mess>.newbox>.info>.content1{
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+ 
+
+
